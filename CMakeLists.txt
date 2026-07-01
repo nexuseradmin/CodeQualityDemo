@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.15)
+project(CodeQualityDemo C)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+include_directories(include)
+add_executable(CodeQualityDemo src/main.c src/bugs.c)
